@@ -10,7 +10,7 @@ import { getFirestore } from "firebase/firestore";
 import { GoogleAuthProvider } from "firebase/auth";
 
 const firebaseConfig = {
-   apiKey: "AIzaSyB-wHfMc4SWdqeYK_0qV9mfMIxZQ7rIdpI",
+   apiKey: process.env.APIKEY,
    authDomain: "tesla-ecommerce-b0b5c.firebaseapp.com",
    projectId: "tesla-ecommerce-b0b5c",
    storageBucket: "tesla-ecommerce-b0b5c.appspot.com",
